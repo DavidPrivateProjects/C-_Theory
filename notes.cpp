@@ -11,3 +11,10 @@ What tools do you need to write in C++?
 -> CLion (payed)
 
 */
+
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
