@@ -1,6 +1,8 @@
 #include <iostream>
 
 int main() {
+    int file_size;
+    file_size = 100;
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
@@ -14,3 +16,6 @@ Data Types
 Loops
 Functions
 */
+
+/* Variables and constants*/
+/* Naming conventions*/
