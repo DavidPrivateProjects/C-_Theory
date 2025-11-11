@@ -19,6 +19,10 @@ int main() {
     std::cout << z << std::endl;
     double z = double(x) / y;
     int p = x % y;
+    x++;
+    x--;
+    int k = x++; //k wil be x then increment
+    int m = ++x; //first increment then assign
     return 0;
 }
 
