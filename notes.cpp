@@ -1,7 +1,9 @@
 #include <iostream>
 
 int main() {
-    int file_size = 100, counter = 0;
+    int file_size = 100; // Snake Case?
+    int FileSize; // Pascal Case
+    int fileSize; // Camel Case
     double sales = 9.99;
     file_size = 100;
     std::cout << "Hello, World!" << std::endl;
