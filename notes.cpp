@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    int file_size = 100;
+    int file_size = 100, counter = 0;
     double sales = 9.99;
     file_size = 100;
     std::cout << "Hello, World!" << std::endl;
