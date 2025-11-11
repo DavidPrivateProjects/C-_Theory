@@ -12,6 +12,13 @@ int main() {
     // declare a constant
     const double pi = 3.14;
 
+    // mathematical expressions
+    int x = 10;
+    int y = 3;
+    int z = x + y;
+    std::cout << z << std::endl;
+    double z = double(x) / y;
+    int p = x % y;
     return 0;
 }
 
