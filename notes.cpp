@@ -21,3 +21,9 @@ Functions
 
 /* Variables and constants*/
 /* Naming conventions*/
+int swap(int a, int b) {
+    int holder = a;
+    a = b;
+    b = holder;
+    return 0;
+}
