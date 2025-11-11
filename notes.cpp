@@ -6,24 +6,18 @@ int main() {
     file_size = 100;
     std::cout << "Hello, World!" << std::endl;
     std::cout << file_size << std::endl;
+
+    // declare a constant
+    const double pi = 3.14;
+
     return 0;
 }
 
 
-/* To run a code, it has to be translated into machine code!*/
-/*If you want to run the code on another machine, you have to recompile it*/
-/*
-Basics: Fundamentals of programmings in C++
-Data Types
-Loops
-Functions
-*/
-
-/* Variables and constants*/
-/* Naming conventions*/
 int swap(int a, int b) {
     int holder = a;
     a = b;
     b = holder;
     return 0;
 }
+
