@@ -34,8 +34,10 @@ int swap(int a, int b) {
     return 0;
 }
 
-int math_exp(int x, int y) {
-    int z = x + 10;
-    z = z / (3 * y);
-    return z;
+int math_exp() {
+    double x = 10;
+    double y = 5;
+    double z = (x + 10) / (3 * y);
+    std::cout << z << std::endl;
+    return 0;
 }
