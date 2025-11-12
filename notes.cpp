@@ -34,3 +34,8 @@ int swap(int a, int b) {
     return 0;
 }
 
+int math_exp(int x, int y) {
+    int z = x + 10;
+    z = z / (3 * y);
+    return z;
+}
