@@ -26,6 +26,11 @@ int main() {
     return 0;
 }
 
+int print_x() {
+    int x = 10;
+    std::cout << "x = " << x << std::endl;
+    return 0;
+}
 
 int swap(int a, int b) {
     int holder = a;
