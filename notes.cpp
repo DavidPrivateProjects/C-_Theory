@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int main() {
     int file_size = 100; // Snake Case?
@@ -29,8 +30,8 @@ int main() {
 int print_x() {
     int x = 10;
     int y = 20;
-    std::cout << "x = " << x << std::endl
-              << "y = " << y;
+    cout << "x = " << x << endl
+        << "y = " << y;
     return 0;
 }
 
