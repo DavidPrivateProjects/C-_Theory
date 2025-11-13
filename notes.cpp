@@ -51,8 +51,8 @@ int math_exp() {
 }
 
 int calc_tax() {
-    double sales = 95000;
-    double state_tax = 0.04;
+    const double sales = 95000;
+    const double state_tax = 0.04;
     double county_tax = 0.02;
     double net_income = sales / (state_tax + county_tax);
     std::cout << "The full income is: " << net_income << std::endl;
