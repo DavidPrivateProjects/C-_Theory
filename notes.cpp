@@ -59,8 +59,12 @@ int calc_tax() {
 }
 
 int train_input() {
-    cout << "Enter a value: ";
-    int value;
-    cin >> value;
+    cout << "Enter values for x and y: ";
+    double x;
+    double y;
+    cin >> x;
+    cin >> y;
+    cout << x + y;
     return 0;
 }
+
