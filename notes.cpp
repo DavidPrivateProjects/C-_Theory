@@ -62,8 +62,7 @@ int train_input() {
     cout << "Enter values for x and y: ";
     double x;
     double y;
-    cin >> x;
-    cin >> y;
+    cin >> x >> y;
     cout << x + y;
     return 0;
 }
