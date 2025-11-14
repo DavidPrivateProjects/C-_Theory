@@ -57,3 +57,10 @@ int calc_tax() {
     double net_income = sales / (state_tax + county_tax);
     std::cout << "The full income is: " << net_income << std::endl;
 }
+
+int train_input() {
+    cout << "Enter a value: ";
+    int value;
+    cin >> value;
+    return 0;
+}
