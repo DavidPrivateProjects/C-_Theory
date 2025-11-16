@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cmath>
+
 using namespace std;
 // work on this tomorrow!
 
@@ -68,12 +70,5 @@ int train_input() {
     return 0;
 }
 
-int far_to_cel(float x) {
-    cout << "Fahrenheit: ";
-    int fahrenheit;
-    cin >> fahrenheit;
-    double celsius = (fahrenheit - 32) / 1.8;
-    cout << celsius;
-    return 0;
-}
 
+// Start exploration of cmath library
