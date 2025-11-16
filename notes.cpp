@@ -67,3 +67,4 @@ int train_input() {
     return 0;
 }
 
+// what if we enter a floating point number -> would be gone because value is declared as an integer
