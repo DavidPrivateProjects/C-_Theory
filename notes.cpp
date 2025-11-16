@@ -73,8 +73,11 @@ int train_input() {
 
 // Start exploration of cmath library
 
-int new_func(){
-    double result = pow(2, 3);
-    cout << result;
+int circle_area() {
+    cout << "Enter radius: ";
+    double radius;
+    const double pi = 3.14;
+    double area = pi * pow(radius, 2);
+    cout << area;
     return 0;
 }
