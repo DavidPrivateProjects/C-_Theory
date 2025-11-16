@@ -74,7 +74,7 @@ int train_input() {
 // Start exploration of cmath library
 
 int new_func(){
-    double result = floor(1.2);
+    double result = pow(2, 3);
     cout << result;
     return 0;
 }
