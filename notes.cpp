@@ -68,4 +68,7 @@ int train_input() {
     return 0;
 }
 
-// what if we enter a floating point number -> would be gone because value is declared as an integer
+int cel_to_far(float x) {
+    int y = (x * 9 / 5) + 32;
+    return 0;
+}
