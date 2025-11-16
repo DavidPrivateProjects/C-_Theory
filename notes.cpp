@@ -68,7 +68,12 @@ int train_input() {
     return 0;
 }
 
-int cel_to_far(float x) {
-    int y = (x * 9 / 5) + 32;
+int far_to_cel(float x) {
+    cout << "Fahrenheit: ";
+    int fahrenheit;
+    cin >> fahrenheit;
+    double celsius = (fahrenheit - 32) / 1.8;
+    cout << celsius;
     return 0;
 }
+
