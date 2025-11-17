@@ -81,3 +81,11 @@ int circle_area() {
     cout << area;
     return 0;
 }
+
+// Fundamental Data Types in C++
+// Build-in types
+// Numbers
+// Boolean values
+// Characters and strings
+
+// C++ is a statically typed language
