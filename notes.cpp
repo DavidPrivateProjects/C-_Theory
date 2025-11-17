@@ -101,3 +101,12 @@ long double -> 8 Bytes
 bool -> 1 Bytes true / false
 char -> 1 Byte 
 */
+
+int data_types_func() {
+    double price = 99.99;
+    float interestRate = 3.67F;
+    long fileSize = 90000L;
+    char letter = 'a';
+    auto isValid = true;
+    return 0;
+}
