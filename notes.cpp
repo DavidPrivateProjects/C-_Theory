@@ -89,3 +89,15 @@ int circle_area() {
 // Characters and strings
 
 // C++ is a statically typed language
+/*
+int -> 4 Bytes -> -2B to 2B
+short -> 2 Bytes -> -32000 to +32000
+long -> 4 Bytes -> same as int
+long long -> 8 Bytes
+
+double -> 8 Bytes
+float -> 4 Bytes
+long double -> 8 Bytes
+bool -> 1 Bytes true / false
+char -> 1 Byte 
+*/
