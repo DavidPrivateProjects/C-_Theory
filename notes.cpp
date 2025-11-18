@@ -103,10 +103,8 @@ char -> 1 Byte
 */
 
 int data_types_func() {
-    double price = 99.99;
-    float interestRate = 3.67F;
-    long fileSize = 90000L;
-    char letter = 'a';
-    auto isValid = true;
+    int number {1};
+    cout << number;
     return 0;
 }
+
