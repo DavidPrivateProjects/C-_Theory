@@ -110,9 +110,9 @@ int data_types_func() {
 
 int binary_func() {
     // number 255 as binary
-    int number = 0b11111111;
+    unsigned int number = 0b11111111;
     // number as hexadecimal number
-    int number = 0Xff;
+    unsigned int number = 0Xff;
     return 0;
 }
 
