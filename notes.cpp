@@ -116,3 +116,12 @@ int binary_func() {
     return 0;
 }
 
+// Suggestion to stay away from the unsigned keyword!
+
+int narrowing() {
+    int number = 100'000'000;
+    short another = number;
+    return 0;
+}
+
+
