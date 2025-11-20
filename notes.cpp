@@ -130,8 +130,8 @@ int narrowing() {
 int random() {
     long elapsedSeconds = time(nullptr);
     cout << elapsedSeconds;
-    srand(5);
-    int number = rand();
+    srand(elapsedSeconds);
+    int number = rand() % 10;
     cout << number;
 }
 
