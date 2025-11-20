@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <cstdlib>
 
 using namespace std;
 // work on this tomorrow!
@@ -123,6 +124,12 @@ int narrowing() {
     int another = number;
     cout << another;
     return 0;
+}
+
+int random() {
+    srand(5);
+    int number = rand();
+    cout << number;
 }
 
 
