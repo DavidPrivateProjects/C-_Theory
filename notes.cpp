@@ -128,9 +128,13 @@ int narrowing() {
 }
 
 int random() {
-    srand(time(nullptr));
-    int number = rand() % 10;
-    cout << number;
+    const short minValue = 1;
+    const short maxValue = 6;
+
+    srand(time(0));
+    short valuable = (rand() % (maxValue - minValue + 1)) + minValue;
+    cout << valuable;
+    return 0;
 }
 
 
