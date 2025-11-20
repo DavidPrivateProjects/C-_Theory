@@ -119,8 +119,9 @@ int binary_func() {
 // Suggestion to stay away from the unsigned keyword!
 
 int narrowing() {
-    int number = 100'000'000;
-    short another = number;
+    short number = 100;
+    int another = number;
+    cout << another;
     return 0;
 }
 
