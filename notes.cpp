@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
+#include <ctime>
 
 using namespace std;
 // work on this tomorrow!
@@ -127,6 +128,8 @@ int narrowing() {
 }
 
 int random() {
+    long elapsedSeconds = time(nullptr);
+    cout << elapsedSeconds;
     srand(5);
     int number = rand();
     cout << number;
