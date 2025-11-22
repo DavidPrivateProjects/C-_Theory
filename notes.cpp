@@ -20,8 +20,11 @@ int main(){
     // object that represents a sequence of text
     std::string name = "David";
     std::cout << name;
+    std::string address = "123 Fake St.";
+
 
     std::cout << initial;
+    std::cout << "Hello " << name << std::endl;
 
     return 0;
 }
