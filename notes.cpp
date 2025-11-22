@@ -11,6 +11,11 @@ int main(){
     // single character
     char grade = 'A';
     char initial = 'B';
+    char currency = '$';
+
+    // boolean (true or false)
+    bool student = true;
+    bool student_2 = false;
 
     std::cout << initial;
 
