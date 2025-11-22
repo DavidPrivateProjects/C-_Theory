@@ -17,6 +17,10 @@ int main(){
     bool student = true;
     bool student_2 = false;
 
+    // object that represents a sequence of text
+    std::string name = "David";
+    std::cout << name;
+
     std::cout << initial;
 
     return 0;
