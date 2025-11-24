@@ -1,11 +1,11 @@
 #include <iostream>
 
 int main(){
-    const double PI = 3.14159;
-    double radius = 10;
-    double circumference = 2 * PI * radius;
+    // Namespace allows for identicly named entities as long as the name spaces are different
 
-    std::cout << circumference << "cm";
+    int x = 0;
+    int x = 1;
+
 
     return 0;
 }
