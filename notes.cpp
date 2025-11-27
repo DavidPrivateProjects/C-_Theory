@@ -1,18 +1,14 @@
 #include <iostream>
+#include <vector>
 
-namespace first{
-    int x = 1;
-}
+// new identifier usually ends with _t.
+typedef std::vector<std::pair<std::string, int>> pairlist_t;
+typedef std::string text_t;
 
-namespace second{
-    int x = 2;
-}
+int main(){
 
-int main() {
-    using namespace first;
-    using namespace std; // Don't do this!
-
-    std::cout << second::x;
-
+    pairlist_t pairlist;
+    text_t firstName = "Bro";
+    std::cout << firstName << '\n';
     return 0;
 }
