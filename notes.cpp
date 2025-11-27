@@ -9,7 +9,8 @@ namespace second{
 }
 
 int main() {
-    int x = 0;
+    using namespace first;
+    using namespace std; // Don't do this!
 
     std::cout << second::x;
 
