@@ -1,11 +1,17 @@
 #include <iostream>
 
-int main(){
-    // Namespace allows for identicly named entities as long as the name spaces are different
-    // google why and how this works again, I don't fully understand
-    int x = 0;
+namespace first{
     int x = 1;
+}
 
+namespace second{
+    int x = 2;
+}
+
+int main() {
+    int x = 0;
+
+    std::cout << x;
 
     return 0;
 }
