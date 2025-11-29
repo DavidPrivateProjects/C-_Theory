@@ -1,18 +1,14 @@
 #include <iostream>
-#include <vector>
 
-// new identifier usually ends with _t.
-typedef std::vector<std::pair<std::string, int>> pairlist_t;
-typedef std::string text_t;
-// typedef was replaced with the using keyword
-using text_t = std::string;
-using number_t = int;
+int main()
+{
+    int students = 20;
 
-int main(){
+    students = students + 1;
+    students+=1;
+    
 
-    pairlist_t pairlist;
-    text_t firstName = "Bro";
-    std::cout << firstName << '\n';
-    std::cout << age << std::endl;
+    std::cout << students;
+
     return 0;
 }
