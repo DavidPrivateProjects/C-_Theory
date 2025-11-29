@@ -6,7 +6,11 @@ int main()
 
     students = students + 1;
     students+=1;
-    
+    students++;
+    students = students-1;
+    students-=1;
+    students--;
+
 
     std::cout << students;
 
