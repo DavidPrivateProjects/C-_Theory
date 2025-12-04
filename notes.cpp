@@ -2,11 +2,11 @@
 
 int main()
 {
-    int students = 20;
 
-    int remainder = students % 3;
+    char x = 100;
+    std::cout << x;
 
-    std::cout << remainder;
+    std::cout << (char) 100;
 
     return 0;
 }
