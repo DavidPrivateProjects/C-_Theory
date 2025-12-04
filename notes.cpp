@@ -3,12 +3,11 @@
 int main()
 {
 
-    int correct = 8;
-    int questions = 10;
+    std::string name;
+    std::cout << "What's your name?: ";
+    std::cin >> name;
 
-    double score = correct/(double)questions * 100;
-
-    std::cout << score << '%';
+    std::cout << "Hello " << name;
 
     return 0;
 }
