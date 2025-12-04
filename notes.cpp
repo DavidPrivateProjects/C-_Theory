@@ -10,7 +10,11 @@ int main()
     students = students-1;
     students-=1;
     students--;
-
+    students = students * 2;
+    students*=2;
+    students = students / 2;
+    students/=2;
+    students/=3; // decimal portion is lost.
 
     std::cout << students;
 
