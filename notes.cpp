@@ -3,10 +3,12 @@
 int main()
 {
 
-    char x = 100;
-    std::cout << x;
+    int correct = 8;
+    int questions = 10;
 
-    std::cout << (char) 100;
+    double score = correct/(double)questions * 100;
+
+    std::cout << score << '%';
 
     return 0;
 }
