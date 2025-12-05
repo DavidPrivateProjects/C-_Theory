@@ -7,11 +7,8 @@ int main()
     double y = 4;
     double z;
 
-    z = std::min(x, y);
-
-    z = pow(2, 3);
-
-    std::cout << z;
+    z = abs(-3);
+    z = round(x);
 
     return 0;
 }
