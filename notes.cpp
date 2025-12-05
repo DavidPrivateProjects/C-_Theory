@@ -2,17 +2,13 @@
 
 int main()
 {
-    std::string name;
-    int age;
-    
-    std::cout << "What's your age?: ",
-    std::cin >> age;
+    double x = 3;
+    double y = 4;
+    double z;
 
-    std::cout << "What's your full name?: ";
-    std::getline(std::cin >> std::ws, name);
-    
-    std::cout << "Hello " << name << '\n';
-    std::cout << "You are " << age << " years old";
+    z = std::max(x, y);
+
+    std::cout << z;
 
     return 0;
 }
