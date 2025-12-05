@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 int main()
 {
@@ -6,7 +7,9 @@ int main()
     double y = 4;
     double z;
 
-    z = std::max(x, y);
+    z = std::min(x, y);
+
+    z = pow(2, 3);
 
     std::cout << z;
 
