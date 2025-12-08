@@ -3,21 +3,40 @@
 
 int main()
 {
-    int month;
-    std::cout << "Enter the month (1-12): ";
-    std::cin >> month;
+    char op;
+    double num1;
+    double num2;
+    double result;
 
-    switch(month){
-        case 1: 
-            std::cout << "It is January";
+    std::cout << "***** CALCULATOR *****" << std::endl;
+
+    std::cout << "Enter either (+ - * /): ";
+    std::cin >> op;
+
+    std::cout << "Enter #1: ";
+    std::cin >> num1;
+
+    std::cout << "Enter #2: ";
+    std::cin >> num2;
+
+    switch(op){
+        case '+':
+            result = num1 + num2;
             break;
-        case 2:
-            std::cout << "It is February";
+        case '-':
+            result = num1 - num2;
+            break;
+        case '*':
+            result = num1 * num2;
+            break;
+        case '/':
+            result = num1 / num2;
             break;
         default:
-            std::cout << "I don't know what month it is!";
-            break;
+            std::cout << "That wasn't a valid response" << std::endl;
     }
+
+    std::cout << "**********************";
 
     return 0;
 }
