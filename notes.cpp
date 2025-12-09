@@ -9,7 +9,7 @@ int main()
     std::cout << "Enter the temperature: ";
     std::cin >> temp;
 
-    if(temp > 0 && temp < 30){
+    if(temp <= 0 && temp >= 30){
         std::cout << "The temperature is good!";
     }
     else{
