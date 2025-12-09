@@ -4,13 +4,17 @@
 int main()
 {
     
-    int number = 9;
-    number % 2 == 1 ? std::cout << "ODD" : std::cout << "EVEN";
+    int temp;
 
-    bool hungry = true;
-    hungry ? std::cout << "You are hungry" : std::cout << "You are full" << std::endl;
+    std::cout << "Enter the temperature: ";
+    std::cin >> temp;
 
-    std::cout << (hungry ? "You are hungry" : "You are full");
-
+    if(temp > 0 && temp < 30){
+        std::cout << "The temperature is good!";
+    }
+    else{
+        std::cout << "The temperature is bad!";
+    }
+    
     return 0;
 }
