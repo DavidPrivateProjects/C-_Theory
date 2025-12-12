@@ -4,17 +4,34 @@
 int main()
 {
     
-    int temp;
+    double temp;
+    char unit;
 
-    std::cout << "Enter the temperature: ";
-    std::cin >> temp;
+    std::cout << "***** Temperature conversion **** \n";
+    std::cout << "F = Fahrenheit\n";
+    std::cout << "C = Celsius\n";
+    std::cout << "What unit would you like to convert to: ";
+    std::cin >> unit;
 
-    if(temp <= 0 && temp >= 30){
-        std::cout << "The temperature is good!";
+    if(unit == 'F' || unit == 'f'){
+        std::cout << "Enter the temperature in Celsius: ";
+        std::cin >> temp;
+
+        temp = (1.8 * temp) + 32.0;
+        std::cout << "Temperature is: " << temp << "F\n";
+    }
+    else if(unit == 'C' || unit == 'c'){
+        std::cout << "Enter the temperature in Fahrenheit: ";
+        std::cin >> temp;
+
+        temp = (temp - 32) / 1.8;
+        std::cout << "Temperature is: " << temp << "C\n";
     }
     else{
-        std::cout << "The temperature is bad!";
-    }
-    
+        std::cout << "Only enter valid chars!";
+    };
+
+
+    std::cout << "*********************************";
     return 0;
 }
