@@ -8,8 +8,7 @@ int main()
     std::cout << "Enter your name: ";
     std::getline(std::cin, name);
 
-    name.length();
-    name.clear();
+    name.append("@gmail.com")
 
     return 0;
 }
