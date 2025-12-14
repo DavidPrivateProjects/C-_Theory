@@ -5,12 +5,13 @@ int main()
 {
     
     std::string name;
-    std::cout << "Enter your name: ";
-    std::getline(std::cin, name);
 
-    name.insert(0, "@");
+    while(name.empty()){
+        std::cout << "Enter your name: ";
+        std::getline(std::cin, name);
+    }
 
-    std::cout << name;
+    std::cout << "Hello " << name;
 
     return 0;
 }
