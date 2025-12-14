@@ -8,7 +8,9 @@ int main()
     std::cout << "Enter your name: ";
     std::getline(std::cin, name);
 
-    name.append("@gmail.com")
+    name.insert(0, "@");
+
+    std::cout << name;
 
     return 0;
 }
