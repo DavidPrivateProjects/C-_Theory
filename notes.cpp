@@ -3,15 +3,9 @@
 
 int main()
 {
-    
-    // do while loop
-
-    int main()
-    {
-        for(int i = 1; i <= 3; i++){
-            std::cout << "HAPPY NEW YEAR!";
-        }
-    }
+    for(int i = 1; i <= 10; i+=2){
+        std::cout << i << '\n';
+    }   
 
     return 0;
 }
