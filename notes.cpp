@@ -4,14 +4,19 @@
 int main()
 {
     
-    std::string name;
+    // do while loop
 
-    while(name.empty()){
-        std::cout << "Enter your name: ";
-        std::getline(std::cin, name);
+    int number;
+
+    std::cout << "Enter a positive #: ";
+    std::cin >> number;
+
+    while (number < 0){
+        std::cout << "Enter a positive #";
+        std::cin >> number;
     }
 
-    std::cout << "Hello " << name;
+    std::cout << "The # is: " << number;
 
     return 0;
 }
