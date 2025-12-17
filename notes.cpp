@@ -3,13 +3,15 @@
 
 int main()
 {
-    // break and continue
+    // nested loop
 
-    for(int i = 1; i <= 20; i++){
-        if (i == 13){
-            continue;
+    for (int i = 1; i <= 10; i++){
+        for(int j = 1; j <= 10; j++){
+            std::cout << j << ' ';
         }
-        std::cout << i << '\n';
+        std::cout << '\n';
     }
 
+
+    return 0;
 }
