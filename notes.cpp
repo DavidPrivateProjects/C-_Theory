@@ -1,16 +1,22 @@
 #include <iostream>
 #include <cmath>
+#include <ctime>
 
 int main()
 {
-    // nested loop
+    // pseudo-random 
 
-    for (int i = 1; i <= 10; i++){
-        for(int j = 1; j <= 10; j++){
-            std::cout << j << ' ';
-        }
-        std::cout << '\n';
-    }
+    srand(time(NULL)); // use current calender time as seed
+
+    int num1 = (rand() % 20) + 1;
+    int num2 = (rand() % 20) + 1;
+    int num3 = (rand() % 20) + 1;
+
+    std::cout << num1;
+    std::cout << num2;
+    std::cout << num3;
+
+
 
 
     return 0;
