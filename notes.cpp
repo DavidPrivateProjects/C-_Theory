@@ -4,20 +4,17 @@
 
 int main()
 {
-    // pseudo-random 
+    
+    srand(time(0));
+    int randNum = rand() % 2 + 1;
 
-    srand(time(NULL)); // use current calender time as seed
+    switch(randNum){
+        case 1: std::cout << "You win a bumper sticker!";
+                break;
+        case 2: std::cout << "You win NOTHING!";
+                break;
 
-    int num1 = (rand() % 20) + 1;
-    int num2 = (rand() % 20) + 1;
-    int num3 = (rand() % 20) + 1;
-
-    std::cout << num1;
-    std::cout << num2;
-    std::cout << num3;
-
-
-
+    }
 
     return 0;
 }
