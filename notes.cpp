@@ -2,9 +2,7 @@
 #include <cmath>
 #include <ctime>
 
-void happyBirthday(){
-    std::cout << "Happy Birthday to you!\n";
-}
+void happyBirthday();
 
 int main()
 {
@@ -16,4 +14,9 @@ int main()
     happyBirthday();
 
     return 0;
+}
+
+
+void happyBirthday(){
+    std::cout << "Happy Birthday to you!\n";
 }
