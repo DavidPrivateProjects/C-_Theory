@@ -2,34 +2,18 @@
 #include <cmath>
 #include <ctime>
 
+void happyBirthday(){
+    std::cout << "Happy Birthday to you!\n";
+}
+
 int main()
 {
     
-    int num;
-    int guess;
-    int tries;
+    // function = a block of reusable code
 
-    srand(time(NULL));
-    num = (rand() % 100) + 1;
-
-    std::cout << "****** NUMBER GUESSING GAME ******\n";
-
-    do{
-        std::cout << "Enter a guess between (1-100); ";
-        std::cin >> guess;
-        tries++;
-
-        if (guess > num){
-            std::cout << "Too high!\n";
-        }
-        else if (guess < num){
-            std::cout << "Too low!\n";
-        }
-        else{
-            std::cout << "CORRECT! # of tries: " << tries;
-        }
-
-    }while(guess != num);
+    happyBirthday();
+    happyBirthday();
+    happyBirthday();
 
     return 0;
 }
