@@ -2,21 +2,20 @@
 #include <cmath>
 #include <ctime>
 
-void happyBirthday(std::string name);
+double square(double length);
 
 int main()
 {
     
-    // function = a block of reusable code
+    double length = 5.0;
+    double area = square(length);
 
-    happyBirthday("Bro");
-    happyBirthday("Bro");
-    happyBirthday("Bro");
+    std::cout << "Area: " << area;
 
     return 0;
 }
 
-
-void happyBirthday(std::string name){
-    std::cout << "Happy Birthday to you!" << name << "\n";
+double square(double length){
+    double result = length * length;
+    return result;
 }
