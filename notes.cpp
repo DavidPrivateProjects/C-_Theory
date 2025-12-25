@@ -1,21 +1,19 @@
 #include <iostream>
-#include <cmath>
-#include <ctime>
 
-double square(double length);
+std::string concatStrings(std::string1, std::string2);
 
 int main()
 {
-    
-    double length = 5.0;
-    double area = square(length);
+    std::string firstName = "Bro";
+    std::string lastName = "Code";
+    std::string fullName = concatStrings(firstName, lastName);
 
-    std::cout << "Area: " << area;
+    std::cout << "Hello" << fullName;
 
     return 0;
 }
-
-double square(double length){
-    double result = length * length;
-    return result;
+std::string concatStrings(std::string string1, std::string string2){
+    return string1 + " " + string2;
 }
+
+∂
