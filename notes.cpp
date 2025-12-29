@@ -1,5 +1,7 @@
 #include <iostream>
 
+// It's best to avood global variables if you can!
+int myNum = 3;
 
 int main()
 {
