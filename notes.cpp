@@ -1,23 +1,40 @@
 #include <iostream>
 
-// It's best to avood global variables if you can!
-int myNum = 3;
+void showBalance(double balance);
+double deposit();
+double withdraw(double balance);
 
 int main()
 {
-    // Local variables 
-    // Global variables
+    do{
+        double balance = 0;
+        int choice = 0;
 
-    int myNum = 1;
-    std::cout << myNum;
+        std::cout << "Enter your choice\n";
+        std::cout << "1. Show Balance\n";
+        std::cout << "2. Deposit Money\n";
+        std::cout << "3. Withdraw Money\n";
+        std::cout << "4. Exit\n";
+        std::cin >> choice;
 
-    printNum()
+        switch(choice){
+            case 1: showBalance(balance);
+                    break;
+            case 2: balance += deposit();
+                    break;
+            case 3: balance -= withdraw(balance);
+                    break;
+            case 4: std::cout << "Thanks for visiting!\n";
+                    break;
+            default: std::cout << "Invalid choice\n";
+        }
+    }while(choice != 4);
 
     return 0;
 }
 
+void showBalance(double balance){
 
-void printNum(){
-    int myNum = 2;
-    std::cout << myNum;
 }
+double deposit()
+
