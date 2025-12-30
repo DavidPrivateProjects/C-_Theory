@@ -34,7 +34,9 @@ int main()
 }
 
 void showBalance(double balance){
-
+    std::cout << "Your balance is $" << balance << "\n";
 }
-double deposit()
+double deposit(){
+    return 0;
+}
 
