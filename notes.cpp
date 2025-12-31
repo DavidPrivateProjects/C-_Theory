@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 void showBalance(double balance);
 double deposit();
@@ -34,7 +35,7 @@ int main()
 }
 
 void showBalance(double balance){
-    std::cout << "Your balance is $" << balance << "\n";
+    std::cout << "Your balance is $" << std::setprecision(2) << std::fixed << balance << "\n";
 }
 double deposit(){
     return 0;
