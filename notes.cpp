@@ -19,7 +19,7 @@ int main()
     std::cout << "Computers choice: ";
     showChoice(computer)
 
-    
+    chooseWinner(player, computer);
 
     return 0;
 }
@@ -62,6 +62,37 @@ void showChoice(char choice){
     }
 }
 void chooseWinner(char player, char computer){
-
+    switch(player){
+        case 'r':   if(computer == 'r'){
+                        std::cout << "It's a tie!\n";
+                    }
+                    else if(computer == 'p'){
+                        std::cout << "You lose!\n";
+                    }
+                    else{
+                        std::cout << "You win!\n";
+                    }
+                    break;
+        case 'p':   if(computer == 'r'){
+                        std::cout << "You win!\n";
+                    }
+                    else if(computer == 'p'){
+                        std::cout << "It's a tie!\n";
+                    }
+                    else{
+                        std::cout << "You lose!\n";
+                    }
+                    break;
+        case 's':   if(computer == 'r'){
+                        std::cout << "You lose!\n";
+                    }
+                    else if(computer == 'p'){
+                        std::cout << "You win!\n";
+                    }
+                    else{
+                        std::cout << "It's a tie!\n";
+                    }
+                    break;
+    }
 }
 
