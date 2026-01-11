@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ctime>
 
 char getUserChoice();
 char getComputerChoice();
@@ -13,6 +14,12 @@ int main()
     player = getUserChoice()
     std::cout << "Your choice: ";
     showChoice(player);
+
+    computer = getComputerChoice();
+    std::cout << "Computers choice: ";
+    showChoice(computer)
+
+    
 
     return 0;
 }
@@ -32,6 +39,16 @@ char getUserChoice(){
     return player;
 }
 char getComputerChoice(){
+
+    srand(time(0));
+    int num = rand() % 3 + 1;
+
+    switch(num){
+        case 1: return 'r';
+        case 2: return 'p';
+        case 3: return 's';
+    }
+
     return 0;
 }
 void showChoice(char choice){
