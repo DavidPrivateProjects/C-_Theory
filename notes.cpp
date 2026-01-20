@@ -2,16 +2,10 @@
 
 int main(){
 
-    // Can only contain data of the same data type!!!
-    std::string car[] = {"Corvette", "Mustang", "Camry"};
+    // determines the size in bytes of an object
+    double gpa = 2.5;
 
-    std::string car2[3]; // Static data structure needs a size!!!
-
-    std::cout << car[0];
-    std::cout << car[1];
-    std::cout << car[2];
-
-    car2[0] = "Hey"
+    std::cout << sizeof(gpa) << " bytes\n";
 
     return 0;
 
